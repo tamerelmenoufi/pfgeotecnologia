@@ -1,5 +1,5 @@
 <?php
-    include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/site/assets/lib/includes.php");
+    include("{$_SERVER['DOCUMENT_ROOT']}/site/assets/lib/includes.php");
 
     $dados = str_replace('\n',' ',json_encode($_SERVER));
 
