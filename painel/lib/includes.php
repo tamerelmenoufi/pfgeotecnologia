@@ -3,7 +3,7 @@
 
     // include("connect_local.php");
 
-    include("/pfgeo/connect.php");
+    include("/pfgeoinc/connect.php");
     $con = AppConnect('pfgeo');
 
     // include("/appinc/connect.php");
