@@ -3,7 +3,7 @@
 
     // include("connect_local.php");
 
-    include("/credcarbonoinc/connect.php");
+    include("/pfgeo/connect.php");
     $con = AppConnect('pfgeo');
 
     // include("/appinc/connect.php");
@@ -13,6 +13,3 @@
 
     $localPainel = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/painel/";
     $localSite = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/site/";
-
-    $localPainel = $_SERVER["REQUEST_SCHEME"]."://pfgeotecnologia.com.br/";
-    $localSite = $_SERVER["REQUEST_SCHEME"]."://pfgeotecnologia.com.br/";
