@@ -1,4 +1,4 @@
 <?php
 
-    include("/credcarbonoinc/connect.php");
-    $con = AppConnect('portal');
+    include("/pfgeo/connect.php");
+    $con = AppConnect('pfgeo');
