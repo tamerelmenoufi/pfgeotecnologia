@@ -8,10 +8,10 @@
   }
 </style>
 
-<nav class="navbar navbar-expand bg-light p-0" style="height:50px">
+<nav class="navbar navbar-expand bg-light p-0">
   <div class="container-fluid">
     <div data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-      <div class="d-flex justify-content-start">
+      <div class="d-flex justify-content-start" style="height:50px">
         <i class="fa-solid fa-bars" style="font-size: 16px;margin-right:10px;margin-top: 15px;"></i>
         <div class="d-none d-sm-block">
           <img src="img/logogeo.svg" style="height:50px; margin-right:20px;" >
