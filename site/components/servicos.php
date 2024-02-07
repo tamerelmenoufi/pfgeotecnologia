@@ -22,7 +22,6 @@
 
         <div class="section-header">
           <h2>Nossos serviços</h2>
-          <p>A CREDCARBON é uma empresa direcionada para a prestação de serviço de consultoria e gestão de ativos intangíveis. Está instalada estrategicamente na cidade de Manaus/AM e pretende atender a demanda e procura pelos seus serviços com uma equipe multidisciplinar de excelência.</p>
         </div>
 
         <div class="row">
