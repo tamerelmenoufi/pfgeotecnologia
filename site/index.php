@@ -84,7 +84,7 @@
         'sobre',
         'servicos',
         'time',
-        'noticias',
+        // 'noticias',
         //'galeria',
         //'banner_depoimentos',
 
@@ -102,7 +102,7 @@
         // 'planos',
         // 'faq',
         //
-        // 'contato',
+        'contato',
         'rodape',
 
 
