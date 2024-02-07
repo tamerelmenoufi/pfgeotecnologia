@@ -24,7 +24,6 @@
         height: 450px;
         width:100%;
         margin-bottom:30px;
-        opacity:0.6;
         z-index:0;
     }
 </style>
