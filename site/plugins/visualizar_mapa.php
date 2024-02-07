@@ -21,7 +21,7 @@
 
     #map<?=$md5?> {
         position:relative;
-        height: 350px;
+        height: 450px;
         width:100%;
         margin-bottom:30px;
         opacity:0.6;
