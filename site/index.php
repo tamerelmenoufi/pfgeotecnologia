@@ -84,7 +84,7 @@
         'sobre',
         'servicos',
         'time',
-        // 'noticias',
+        'noticias',
         //'galeria',
         //'banner_depoimentos',
 
@@ -103,9 +103,7 @@
         // 'faq',
         //
         'contato',
-        'rodape',
-
-
+        'rodape'
     ];
 
     foreach($componentes as $i => $v){
