@@ -4,8 +4,6 @@
 
         <div class="section-header">
           <h2>Time</h2>
-          <p>
-          A CredCarbon Manaus  conta com um corpo de técnicos de diversos setores de negócios, bem como em sua diretoria, que orientam as melhores ações e direcionamentos, de acordo com as melhores práticas de mercado.</p>
         </div>
 
         <div class="row gy-5">
