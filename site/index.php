@@ -103,7 +103,7 @@
         // 'faq',
         //
         'contato',
-        'rodape',
+        // 'rodape',
 
 
     ];
