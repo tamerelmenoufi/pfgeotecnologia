@@ -1,7 +1,7 @@
 <?php
 
     date_default_timezone_set("America/Manaus");
-    include("/credcarbonoinc/connect.php");
+    include("/pfgeoinc/connect.php");
     $con = AppConnect('emails');
 
 

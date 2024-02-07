@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#ff0000"/>
     <title>APP</title>
-    <?php include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/header.php"); ?>
+    <?php include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/header.php"); ?>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
@@ -21,7 +21,7 @@
 
 <div class="ms_corpo"></div>
 
-<?php include("{$_SERVER['DOCUMENT_ROOT']}/credcarbon/painel/lib/footer.php"); ?>
+<?php include("{$_SERVER['DOCUMENT_ROOT']}/painel/lib/footer.php"); ?>
 
 <script src="<?= "js/app.js?" . date("YmdHis"); ?>"></script>
 <script src="<?= "js/wow.js"; ?>"></script>
