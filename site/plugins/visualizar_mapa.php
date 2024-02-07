@@ -35,15 +35,15 @@
         endereco<?=$md5?> = "<?=$endereco?>";
         geocoder<?=$md5?> = new google.maps.Geocoder();
         map<?=$md5?> = new google.maps.Map(document.getElementById("map<?=$md5?>"), {
-            zoomControl: false,
+            zoomControl: true,
             mapTypeControl: false,
-            draggable: false,
+            draggable: true,
             scaleControl: false,
             scrollwheel: false,
             navigationControl: false,
             streetViewControl: false,
             mapTypeId: google.maps.MapTypeId.ROADMAP,
-            fullscreenControl: false,
+            fullscreenControl: true,
             <?php
             if($coordenadas){
             ?>
