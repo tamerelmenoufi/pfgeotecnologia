@@ -142,6 +142,7 @@
 
   <script>
     $(function(){
+      $("#loom-companion-mv3").remove();
       $.ajax({
         url:"assets/lib/log_acessos.php",
         success:function(dados){
