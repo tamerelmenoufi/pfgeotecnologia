@@ -76,8 +76,8 @@
 
     $componentes = [
         'menu',
-        'banner_principal',
-        //'banner_principal_scroll',
+        // 'banner_principal',
+        'banner_principal_scroll',
         //  'video',
         // 'banner_principal2',
         // 'banner_principal3',
