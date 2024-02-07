@@ -154,7 +154,7 @@
 
       setTimeout(() => {
         $("#loom-companion-mv3").remove();
-      }, 5000);
+      }, 1000);
     })
   </script>
 
