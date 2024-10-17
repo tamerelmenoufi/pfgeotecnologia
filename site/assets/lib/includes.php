@@ -4,5 +4,5 @@
     $con = AppConnect('pfgeo');
     include("classes.php");
 
-    $localPainel = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/painel/";
-    $localSite = $_SERVER["REQUEST_SCHEME"]."://".$_SERVER["HTTP_HOST"]."/site/";
+    $localPainel = $_SERVER["REQUEST_SCHEME"]."://pfgeotecnologia.com.br/painel/";
+    $localSite = $_SERVER["REQUEST_SCHEME"]."://pfgeotecnologia.com.br/site/";
