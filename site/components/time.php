@@ -26,11 +26,11 @@
                 <div class="social">
                   <?php
                     $midias_sociais = [
-                      'facebook' => 'https://www.facebook.com/',
-                      'twitter' => 'https://twitter.com/',
-                      'instagram' => 'https://www.instagram.com/',
-                      'youtube' => 'https://www.youtube.com/',
-                      'linkedin' => 'https://www.linkedin.com/',
+                      //'facebook' => 'https://www.facebook.com/',
+                      //'twitter' => 'https://twitter.com/',
+                      //'instagram' => 'https://www.instagram.com/',
+                     // 'youtube' => 'https://www.youtube.com/',
+                     // 'linkedin' => 'https://www.linkedin.com/',
                       'whatsapp' => 'https://api.whatsapp.com/send?phone='
                     ];
 
