@@ -1,128 +1,113 @@
 
 <style>
- @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
-
-
-#slider {
-  position: relative;
+ 
+@-webkit-keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+  }
+}
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: pr;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
   overflow: hidden;
-  margin: 20px auto 0 auto;
-  border-radius: 4px;
-}
-
-#slider ul {
   position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none;
+  width: 960px;
 }
-
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 500px;
-  height: 300px;
-  background: #ccc;
-  text-align: center;
-  line-height: 300px;
-}
-
-a.control_prev, a.control_next {
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 100px;
   position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
+  width: 200px;
+  z-index: 2;
 }
-
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-a.control_next {
+.slider::after {
   right: 0;
-  border-radius: 2px 0 0 2px;
+  top: 0;
+  -webkit-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
 }
-
-.slider_option {
-  position: relative;
-  margin: 10px auto;
-  width: 160px;
-  font-size: 18px;
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  -webkit-animation: scroll 40s linear infinite;
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+.slider .slide {
+  height: 100px;
+  width: 250px;
 }
 
   </style>
 
-<div id="slider">
-  
-  <ul>
-    <li style="background:#000">SLIDE 1</li>
-    <li style="background:#000!!!">SLIDE 2</li>
-    
-  </ul>  
+<div class="slider">
+  <div class="slide-track">
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+    </div>
+    <div class="slide">
+      <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+    </div>
+  </div>
 </div>
 
 <script>
- jQuery(document).ready(function ($) {
-
-setInterval(function () {
-    moveRight();
-}, 3000);
-
-var slideCount = $('#slider ul li').length;
-var slideWidth = $('#slider ul li').width();
-var slideHeight = $('#slider ul li').height();
-var sliderUlWidth = slideCount * slideWidth;
-
-$('#slider').css({ width: slideWidth, height: slideHeight });
-
-$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-
-$('#slider ul li:last-child').prependTo('#slider ul');
-
-function moveLeft() {
-    $('#slider ul').animate({
-        left: + slideWidth
-    }, 200, function () {
-        $('#slider ul li:last-child').prependTo('#slider ul');
-        $('#slider ul').css('left', '');
-    });
-};
-
-function moveRight() {
-    $('#slider ul').animate({
-        left: - slideWidth
-    }, 200, function () {
-        $('#slider ul li:first-child').appendTo('#slider ul');
-        $('#slider ul').css('left', '');
-    });
-};
-
-$('a.control_prev').click(function () {
-    moveLeft();
-});
-
-$('a.control_next').click(function () {
-    moveRight();
-});
-
-});    
 </script>
