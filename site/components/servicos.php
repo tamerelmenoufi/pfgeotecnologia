@@ -74,7 +74,8 @@ a.control_next {
 <div id="slider">
   
   <ul>
-    <li>SLIDE 1</li>
+    <li style="background:#000">SLIDE 1</li>
+    <li style="background:#000!!!">SLIDE 2</li>
     
   </ul>  
 </div>
