@@ -1,9 +1,5 @@
     <!-- ======= Recent Blog Posts Section ======= -->
-<head> 
-<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-// Add the new slick-theme.css if you want the default styling
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-</head>
+<head>
     <style>
   .recent-blog-posts .post-box:hover .post-title {
     color: #057a34;}
@@ -38,7 +34,7 @@
           ?>
 
           <div class="col-lg-4 your-class" data-aos="fade-up" data-aos-delay="200">
-            <div class="autoplay post-box">
+            <div class="post-box">
               <div style="margin-top:10px;height:267px" class="post-img"><img src="<?=$localPainel?>site/volume/servicos/<?=$d->imagem?>" class="img-fluid" alt=""></div>
               <!-- <div class="meta">
                 <span class="post-date">Tue, December 12</span>
@@ -95,10 +91,6 @@
 
       </div>
 
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-</script>
     </section><!-- End Recent Blog Posts Section -->
 
     <script> 
