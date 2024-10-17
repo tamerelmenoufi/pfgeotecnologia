@@ -1,9 +1,5 @@
     <!-- ======= Recent Blog Posts Section ======= -->
-    <head> 
-<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-// Add the new slick-theme.css if you want the default styling
-<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-</head>
+ 
     <style>
   .recent-blog-posts .post-box:hover .post-title {
     color: #057a34;}
