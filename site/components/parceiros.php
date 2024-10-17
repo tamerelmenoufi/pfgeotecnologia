@@ -61,7 +61,7 @@
 }
 
   </style>
- <section id="servicos"  style="padding:0px" class="recent-blog-posts">
+ <section id="parceiros"  style="padding:0px" class="recent-blog-posts">
 <div class="slider">
   <div class="slide-track">
     <div class="slide">
