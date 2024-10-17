@@ -1,6 +1,7 @@
 <?php
     header("location:./site/");
-exit();
+    exit();
+    //Teste
 ?>
 <center>
 <br><br><br><br><br>
