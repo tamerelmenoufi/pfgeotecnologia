@@ -1,5 +1,5 @@
     <!-- ======= Recent Blog Posts Section ======= -->
-
+<head>
     <style>
   .recent-blog-posts .post-box:hover .post-title {
     color: #057a34;}
@@ -20,7 +20,7 @@
 
       <div class="container" data-aos="fade-up">
 
-        <div class="section-header">
+      <div style="margin-top:20px" class="section-header">
           <h2>Nossos serviços</h2>
         </div>
 
@@ -28,12 +28,12 @@
 
 
           <?php
-          $query = "select * from servicos where situacao = '1' order by codigo desc limit 0,3";
+          $query = "select * from servicos where situacao = '1' order by rand() desc limit 0,4";
           $result = mysqli_query($con, $query);
           while($d = mysqli_fetch_object($result)){
           ?>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 your-class" data-aos="fade-up" data-aos-delay="200">
             <div class="post-box">
               <div style="margin-top:10px;height:267px" class="post-img"><img src="<?=$localPainel?>site/volume/servicos/<?=$d->imagem?>" class="img-fluid" alt=""></div>
               <!-- <div class="meta">
@@ -92,3 +92,12 @@
       </div>
 
     </section><!-- End Recent Blog Posts Section -->
+
+    <script> 
+    $('.autoplay').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+});
+    </script>
