@@ -1,3 +1,8 @@
+<?php
+    header("location:./site/");
+    exit();
+    //Teste
+?>
 <center>
 <br><br><br><br><br>
 <img src="img/logo.jpeg" alt="">
