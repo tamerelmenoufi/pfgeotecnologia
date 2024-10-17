@@ -2,23 +2,6 @@
 <style>
  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);	
 
-html {
-  border-top: 5px solid #fff;
-  background: #58DDAF;
-  color: #2a2a2a;
-}
-
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans';
-}
-
-h1 {
-  color: #fff;
-  text-align: center;
-  font-weight: 300;
-}
 
 #slider {
   position: relative;
@@ -88,15 +71,11 @@ a.control_next {
 
   </style>
 
-<h1>Incredibly Basic Slider</h1>
 <div id="slider">
-  <a href="#" class="control_next">></a>
-  <a href="#" class="control_prev"><</a>
+  
   <ul>
     <li>SLIDE 1</li>
-    <li style="background: #aaa;">SLIDE 2</li>
-    <li>SLIDE 3</li>
-    <li style="background: #aaa;">SLIDE 4</li>
+    
   </ul>  
 </div>
 
