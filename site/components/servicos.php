@@ -33,7 +33,7 @@
           while($d = mysqli_fetch_object($result)){
           ?>
 
-          <div class="col-lg-4 your-class" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 your-class" data-aos="fade-up" data-aos-delay="200">
             <div class="post-box">
               <div style="margin-top:10px;height:267px" class="post-img"><img src="<?=$localPainel?>site/volume/servicos/<?=$d->imagem?>" class="img-fluid" alt=""></div>
               <!-- <div class="meta">
